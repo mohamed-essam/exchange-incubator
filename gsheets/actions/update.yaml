@@ -1,0 +1,27 @@
+description: 'Update Range data https://googleapis.github.io/google-api-python-client/docs/dyn/sheets_v4.spreadsheets.values.html#update'
+enabled: true
+entry_point: update.py
+name: update
+parameters:
+  spreadsheet_id:
+    type: string
+    required: true
+  range:
+    type: string
+    required: true
+  values:
+    type: array
+    required: true
+  value_input_option:
+    type: string
+    required: true
+  major_dimension:
+    type: string
+    required: false
+  response_value_render_option:
+    type: string
+    required: false
+  include_values_in_response:
+    type: boolean
+    required: false
+runner_type: "python-script"

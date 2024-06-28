@@ -1,0 +1,6 @@
+---
+  service_account_key:
+    description: "Base64 encoded key of Service Account"
+    type: "string"
+    secret: true
+    required: true

@@ -1,0 +1,12 @@
+description: 'Clear Range data https://googleapis.github.io/google-api-python-client/docs/dyn/sheets_v4.spreadsheets.values.html#get'
+enabled: true
+entry_point: clear.py
+name: clear
+parameters:
+  spreadsheet_id:
+    type: string
+    required: true
+  range:
+    type: string
+    required: true
+runner_type: "python-script"

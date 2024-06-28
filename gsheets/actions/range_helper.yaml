@@ -1,0 +1,12 @@
+description: 'Convert index to cell ID'
+enabled: true
+entry_point: range_helper.py
+name: range_helper
+parameters:
+  row:
+    type: number
+    required: true
+  column:
+    type: number
+    required: true
+runner_type: "python-script"

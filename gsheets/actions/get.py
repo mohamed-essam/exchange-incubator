@@ -17,5 +17,5 @@ class Get(Action):
         data = self._service.spreadsheets().values().get(spreadsheetId=spreadsheet_id, range=range, majorDimension=major_dimension, valueRenderOption=value_render_option).execute()
         values = [[]]
         if data.get("values") is not None:
-            values = data.get(values)
+            values = data.get("values")
         return {"data": values}
